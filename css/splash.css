@@ -1,0 +1,477 @@
+ 
+
+
+	    
+
+#signup:hover
+{
+border-radius:5px;
+background:url(/check.png); -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;" href="/check.png" class="list-group-item">
+border:1px solid rgba(255, 87, 214, 1);
+color:rgba(255, 87, 214, 1);
+}
+
+
+
+#background{
+overflow-y:hidden;
+
+min-height:400px;
+}
+
+
+
+
+#error{
+margin-top:10px;  
+float:right;
+	   width:100%;
+	   	height:50px;   
+
+
+}	   
+	   
+
+
+ 
+  @media(max-width: 500px) 
+ {
+ 
+ 
+ .modal-dialog{
+ margin-top:25% !important;
+ 
+ 
+ }
+ 
+ #overview{
+ margin-right: auto;
+margin-left: auto;
+max-width:300px;
+overflow-y:hidden;
+ }
+ 
+ 
+  	   #body {
+	   
+	   background:url('/img/launchpad.jpg') no-repeat center center fixed;
+	     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	   top:60px;left:0px;right:0px;height:100%;
+	   min-height:100px;
+	   }
+ 
+  .form-email{ 
+  width:100%;
+  }
+ 
+ 
+ #logform {
+ 
+ 
+margin-top:20px; 
+border-radius: 10px 35px 10px 35px;
+
+	   width:100%;
+	   
+	   
+  background-color:rgba(255, 255, 255, 0.9);
+
+}
+ .logfield{
+ 
+ margin-left:20px; margin-right:20px
+ 
+ }
+ 
+ 
+  #signup
+{
+border-radius:5px;
+margin-top:10px;
+border:1px solid white; color:grey;
+width:100%;
+background-color:rgba(12, 231, 248, 1);
+
+} 
+
+#background{
+overflox-x:hidden;
+overflow-y:hidden;
+width:100%;
+min-height:400px;
+}
+ 
+  #message{
+  margin: 0.67em 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+  margin-top: 20px;
+margin-bottom: 10px;
+  font-size: 20px;
+text-align:center;
+ color:white;
+ }
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+  @media (min-width: 500px) and (max-width: 768px) 
+  {
+  
+   .modal-dialog{
+ margin-top:20% !important;
+ 
+ 
+ }
+  
+  
+   	   #body {
+	   
+	   background:url('/img/Vegas.jpg') no-repeat center center fixed;
+	     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	   top:62px;left:0px;right:0px;height:100%;
+	   min-height:550px;
+	   }
+  
+  #background{
+  min-width: 400px;
+margin-top: 60px;
+height: 50%;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+  }
+  
+ #overview{
+
+overflow: hidden;
+margin-bottom: auto;
+width: 300px;
+margin-right: auto;
+margin-left: auto;
+}
+  
+   #message{
+  margin: 0.67em 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+  margin-top: 20px;
+margin-bottom: 10px;
+  font-size: 30px;
+text-align:center;
+ color:white;
+ }
+
+
+ 
+ .logfield{
+ 
+ margin-left:30px; margin-right:30px
+ 
+ }
+  
+  
+   .form-email{ 
+  width:240px;
+  }
+  
+
+  
+    #logform {
+border-radius: 10px 35px 10px 35px;
+
+	   width:300px;
+	   
+	   
+  background-color:rgba(255, 255, 255, 0.9);
+
+}
+  
+  
+  
+   #signup
+{
+border-radius:5px;
+margin-top:10px;
+border:1px solid white; color:grey;
+width:300px;
+background-color:rgba(12, 231, 248, 1);
+
+} 
+  
+  
+  
+  
+  
+  
+   #message{
+  margin: 0.67em 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+  margin-top: 20px;
+margin-bottom: 10px;
+  font-size: 30px;
+text-align:center;
+ color:white;
+ }
+  
+  
+  
+  }
+ 
+ 
+ @media (min-width: 768px) and (max-width: 1200px) 
+ {
+ 
+    .modal-dialog{
+ margin-top:17% !important;
+ 
+ 
+ }
+ 
+ 
+  .logfield{
+ 
+ margin-left:30px; margin-right:30px
+ 
+ }
+ 
+   #signup
+{
+border-radius:5px;
+margin-top:10px;
+border:1px solid white; color:grey;
+width:100%;
+background-color:rgba(12, 231, 248, 1);
+
+} 
+ 
+ 
+  #logform {
+border-radius: 10px 35px 10px 35px;
+
+	   width:300px;
+	   
+	   
+  background-color:rgba(255, 255, 255, 0.9);
+
+}
+ 
+ 
+ 
+ 	   #body {
+	   
+	   background:url('/img/Vegas.jpg') no-repeat center center fixed;
+	     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	   top:62px;left:0px;right:0px;height:100%;
+	   min-height:550px;
+	   }
+ 
+ 
+  	   #background {
+	   
+	   min-width:400px;
+	   margin-top:120px;
+	   height: 50%;
+	   width:95%;
+	   
+	   margin-left:auto;
+       margin-right:auto;
+	   
+	   }
+ 
+#overview{
+ margin-bottom:auto;
+
+width:300px;
+margin-right:auto;
+margin-left:auto;	  
+   
+	   
+  }
+ #message{
+  margin: 0.67em 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+  margin-top: 20px;
+margin-bottom: 10px;
+  font-size: 36px;
+text-align:center;
+ color:white;
+ }
+ }
+ @media (min-width: 1200px) {
+ 
+     .modal-dialog{
+ margin-top:10% !important;
+ 
+ 
+ }
+ 
+ 
+ 
+  .logfield{
+ 
+ margin-left:30px; margin-right:30px
+ 
+ }
+
+ 	   #background {
+	   
+		margin-top:160px;
+	   max-width:1200px;
+	   height: 50%;
+	   width:70%;
+	   
+	   margin-left:auto;
+       margin-right:auto;
+	   
+	   }
+
+ 
+ 
+ #overview{
+
+margin-bottom:auto;
+float:right;
+width:300px;
+margin-right:auto;
+margin-left:auto;
+}
+ 
+ #message{
+
+ float:left;
+ margin-top:50px;
+ color:white;
+ }
+ }
+ 
+ 
+  @media (min-width: 1200px)
+ {
+    #signup
+{
+border-radius:5px;
+margin-top:10px;
+border:1px solid white; color:grey;
+width:100%;
+background-color:rgba(12, 231, 248, 1);
+
+} 
+ 
+ 
+  #logform {
+border-radius: 10px 35px 10px 35px;
+
+	   width:300px;
+	   
+	   
+  background-color:rgba(255, 255, 255, 0.9);
+
+}
+ 
+ 
+ 
+ 	   #body {
+	   
+	   background:url('/img/Vegas.jpg') no-repeat center center fixed;
+	     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	   top:62px;left:0px;right:0px;height:100%;
+	   min-height:550px;
+	   }
+ 
+ 
+  	   #background {
+	   
+	   min-width:400px;
+	   margin-top:120px;
+	   height: 50%;
+	   width:95%;
+	   
+	   margin-left:auto;
+       margin-right:auto;
+	   
+	   }
+ 
+#overview{
+ margin-bottom:auto;
+
+width:300px;
+margin-right:auto;
+margin-left:auto;	  
+   
+	   
+  }
+ #message{
+  margin: 0.67em 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+  margin-top: 20px;
+margin-bottom: 10px;
+  font-size: 36px;
+text-align:center;
+ color:white;
+ }
+ }
+ @media (min-width: 1200px) {
+
+ 	   #background {
+	   
+		margin-top:160px;
+	   max-width:1200px;
+	   height: 50%;
+	   width:70%;
+	   
+	   margin-left:auto;
+       margin-right:auto;
+	   
+	   }
+
+ 
+ 
+ #overview{
+
+margin-bottom:auto;
+float:right;
+width:300px;
+margin-right:auto;
+margin-left:auto;
+}
+ 
+ #message{
+
+ float:left;
+ margin-top:50px;
+ color:white;
+ }
+ }
+ 

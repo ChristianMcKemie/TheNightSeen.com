@@ -1,0 +1,97 @@
+ @media (max-width: 500px)
+ 
+ {
+ 	   	   .homecontainer {
+margin-top: 59px;
+width: 90%;
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+background-color: rgba(12, 231, 248, 0.14);
+	   
+	   }
+ 
+ 
+ }
+
+ @media (min-width: 500px)
+  {
+  
+   
+  
+   	  .homebackground{
+	   
+	   background:url('/img/geo2.jpg') no-repeat center center fixed;
+	     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	   top:59px;left:0px;right:0px;
+	   min-height:550px;
+	   border-radius:5px; background-color:rgba(12, 231, 248, 0.14);
+	   }
+	   
+	   	   .homecontainer {
+margin-top: 59px;
+width: 90%;
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+
+	   
+	   }
+	   }
+
+	   
+.city-list{
+height:auto;
+padding: 10px 15px;
+border-radius:3px;
+border-top:1px solid #fff;
+color:white;
+ background:url();
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+.city{
+text-align: center;
+padding: 10px 15px;
+text-decoration: none;
+height:auto;
+}
+.city a{
+border:1px;
+width:100%;
+padding: 10px 20px;
+text-decoration: none;
+color:fff;
+height:25px;
+}
+
+.city a:link, #club-select a:visited
+{
+text-decoration: none;
+color:fff;
+}
+
+.city  a:hover, .city a:active
+{
+color:fff;
+background-color: rgba(14, 226, 244, 0.3);
+text-decoration: none;
+border:1px solid #59c8df;
+
+	border-radius: 2px ;
+}
+.city  li:hover, .city li:active
+{  
+  color:fff; 
+
+text-decoration: none;	
+}

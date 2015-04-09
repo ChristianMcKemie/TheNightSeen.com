@@ -1,0 +1,200 @@
+
+
+body {
+margin: 0px;
+padding: 0px;
+word-spacing: 0px;
+letter-spacing: 0px;
+height: 100%;
+background-image: url('/alum.jpg');
+z-index:100;
+}
+
+
+@media(max-width:500px) {
+
+
+.navbar-right{
+
+display: none;
+
+}
+
+.navbar-sidemenu-left{
+
+display: inline;
+
+}
+
+
+
+
+}
+
+
+@media(min-width:500px) {
+
+
+.navbar-right{
+
+display:inline;
+
+}
+
+.navbar-sidemenu-left{
+
+display:  none !important;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-icon:hover
+{
+cursor:pointer;
+color:rgba(12,231,248, 1); !important;
+
+}
+
+#nav-logo-left{
+float:left;
+position: relative;
+margin-top: 15px;
+color:#999;
+width: 135px;
+}
+
+.menu-icon-open{
+
+color:rgba(12,231,248, 1); !important;
+}
+
+.menu-open{
+ overflow-y: auto;
+background-color: rgba(80, 80, 80, 1);
+width:66%;
+max-width: 200px;
+height: calc(100% - 59px);
+border-width: 0;
+position: fixed;
+top: 62px;
+z-index: 1030;
+}
+
+.menu-closed{
+display: none;
+}
+
+
+
+@media(min-width:750px) {
+
+.size{
+max-width:1200px;
+width: 100%;
+margin: auto;
+position: relative;
+}
+
+
+}
+
+
+
+#logo{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(153, 153, 153);
+cursor: auto;
+display: block;
+float: left;
+
+font-size: 18px;
+height: 63px;
+line-height: 20px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 10px;
+padding-top: 16px;
+right: 15px;
+text-decoration: none;
+text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+
+
+}
+
+
+
+.element{
+background: rgba(12,231,248, 0.14);
+
+}
+
+
+
+
+
+
+.navbar
+{
+background-color: #333;
+top: 0;
+border-width: 0 0 1px;
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+border-radius: 0;
+height: 62px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+background-repeat: repeat-x;
+display: block;
+}
+
+#logo>a:hover { 
+    color: white;
+	}
+	
+	
+	
+	
+	.footer{
+	text-align:center;
+bottom:0px;
+	   width:90%; 
+	   max-width:1200px;
+	   margin-left:auto;
+       margin-right:auto;
+	   border-radius: 5px;
+	
+	
+	}
+	

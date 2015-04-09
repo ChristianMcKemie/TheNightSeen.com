@@ -1,0 +1,194 @@
+
+/* top / to the right search box */
+ .searchbox-input{
+ color:#e7e7e7;
+ position:absolute;
+ top:0;
+ right:0;
+ border:0;
+ outline:0;
+ background:transparent;
+ width:197px;
+height:35px;
+ 
+ padding-left: 10px;
+ font-size:14px;
+ 
+}
+
+.searchbox{
+
+ margin-top:13px;
+ position:relative;
+
+ width:90px;
+height:35px;
+ float:right;
+ overflow:hidden;
+ -webkit-transition: width 0.3s;
+ -moz-transition: width 0.3s;
+ -ms-transition: width 0.3s;
+ -o-transition: width 0.3s;
+ transition: width 0.3s;
+
+}
+
+/*......*/
+/*......*/
+/*......*/
+.searchbox-open{
+border:1px solid #999;
+border-radius:3px;
+background:transparent;
+ width:200px;
+}
+ 
+ .searchname{
+ margin-left:30px;
+ float:left;
+color:#999;
+}
+
+ .searchname:hover{
+color:#e7e7e7;
+}  
+ 
+
+
+.searchbox-input::-webkit-input-placeholder {
+ color: #fff;
+}
+.searchbox-input:-moz-placeholder {
+ color: #fff;
+}
+.searchbox-input::-moz-placeholder {
+ color: #fff;
+}
+.searchbox-input:-ms-input-placeholder {
+ color: #fff;
+}
+
+.searchbox-icon{
+ width:110px;
+height:35px;
+ display:block;
+ position:absolute;
+ 
+ top:0;
+
+
+ right:0;
+ outline:0;
+
+ text-align:center;
+ cursor:pointer;
+background:transparent;
+
+}
+.searchbox-submit{
+
+display:none;
+ 
+}
+/*......*//*......*//*......*//*......*//*......*//*......*//*......*//*......*//*......*//*......*//*......*//*......*/
+/*sidebar/ to the left search box*/
+
+ .searchbox-input-left:focus  { background-color: rgba(60,60,60,1);}
+
+
+
+ .searchbox-input-left{
+ color:#e7e7e7;
+ position:absolute;
+ top:0;
+  bottom:0;
+ right:0;
+ border:0;
+ outline:0;
+ background:transparent;
+ width:135px;
+ z-index:1;
+
+ font-size:14px;
+ 
+}
+
+.searchbox-left{
+float:left;
+ position:relative;
+margin: 10px 15px;
+ width:90px;
+height:35px;
+border:1px solid red;
+ overflow:hidden;
+ -webkit-transition: width 0.3s;
+ -moz-transition: width 0.3s;
+ -ms-transition: width 0.3s;
+ -o-transition: width 0.3s;
+ transition: width 0.3s;
+
+}
+
+/*......*/
+/*......*/
+/*......*/
+.searchbox-open-left{
+border:1px solid #999;
+border-radius:3px;
+background:transparent;
+ width:170px;
+}
+ 
+ .searchname-left{
+  z-index:3;
+ margin-right:30px;
+ float:right;
+color:#999;
+}
+
+ .searchname-left:hover{
+color:#e7e7e7;
+}  
+ 
+
+
+.searchbox-input-left::-webkit-input-placeholder {
+ color: #fff;
+}
+.searchbox-input-left:-moz-placeholder {
+ color: #fff;
+}
+.searchbox-input-left::-moz-placeholder {
+ color: #fff;
+}
+.searchbox-input-left:-ms-input-placeholder {
+ color: #fff;
+}
+
+.searchbox-icon-left{
+ width:110px;
+height:35px;
+ display:block;
+ position:absolute;
+ 
+ top:0;
+
+
+ left:0;
+ outline:0;
+
+ text-align:center;
+ cursor:pointer;
+background:transparent;
+
+}
+.searchbox-submit-left{
+
+display:none;
+ 
+}
+
+
+
+
+
