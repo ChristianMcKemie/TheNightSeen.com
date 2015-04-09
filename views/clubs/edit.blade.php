@@ -44,7 +44,7 @@
  {{Form::open(array('url' =>'/'.$Club->cityurl.'/'.$Club->url.'/edit', 'files'=> true))}}
 <a href="/{{$Club->cityurl}}/{{$Club->url}}" class="btn btn-info">Back</a>
 <button class="btn btn-success btn-sm" type="submit"><span class="glyphicon glyphicon-ok"></span> Save</button>
-<a href="http://71.77.45.223:8090/enginemanager/#home/_defaultVHost_" class="btn btn-info" style="background-color:#ff8400!important;" target="_blank">Wowza</a>
+<a href="" class="btn btn-info" style="background-color:#ff8400!important;" target="_blank">Wowza</a>
 </br>
 </br>
 name:</br>{{Form::text('name',  $Club->name,array('rows'=>'1','id'=>'new-review','class'=>'form-control animated'))}}</br></br>	
