@@ -747,7 +747,7 @@ padding: 0px !important;
         autoPlay: true,
         urlResolvers: ['f4m'],
         provider: 'httpstreaming',
-        baseUrl: "http://71.77.45.223:8081/{{$club->camstream}}/"}});
+        baseUrl: "{{$club->camstream}}/"}});
     </script>		
 	@endif
  <script type="text/javascript">
